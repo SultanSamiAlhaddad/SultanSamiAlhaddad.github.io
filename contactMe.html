@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<title> Simply Me - Website designed by Sultan Sami</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+
+<!-- Navigation Bar -->
+  <nav>
+    <div class="heading">
+      <i><h1><a href="#">Simply Me</a></h1></i>
+      <p> <a href="#">Sultan's Personal Website</a></p>
+    </div>
+
+    <ul align = "right" class = "NaviBar">
+      <li><a href="index.html"> Home </a></li>
+      <li><a href="blog1.html"> Life at BUB </a></li>
+      <li><a href="blog2.html"> Communication Skills </a></li>
+      <li><a href="blog3.html"> Gaming </a></li>
+      <li><a class="active" href="contactMe.html"> Contact Me </a></li>
+    </ul>
+  </nav>
+
+<!-- Form -->
+<div id = "title" style="text-align:center">
+  <h1 style = "padding-top: 10px">Contact Me</h1>
+  <p>Shoot me a message! Let me know what I can do to improve my website!</p>
+</div>
+<div class="row">
+  <div class="columns_for_forms">
+    <picture>
+      <img src="Images/ContactMe/Contact_Me_Img.jpg" style="width:100%; max-height: 410px">
+    </picture>
+  </div>
+    <div class="columns_for_forms">
+      <form action ="mailto:s.alhaddad@bub.edu.bh" enctype = "text/plain" method = "post">
+        <label>First Name</label>
+        <input type="text" id="first_name" name="First Name" placeholder="Your First Name..">
+
+        <label>Last Name</label>
+        <input type="text" id="last_name" name="Last Name" placeholder="Your Last Name..">
+
+        <label>Subject</label>
+        <textarea id="subject" name="Subject" placeholder="Give me your feedback..." style="height:150px"></textarea>
+
+        <input type="submit" value="Submit">
+    </form>
+  </div>
+</div>
+</body>
+<!-- Footer -->
+  <footer>
+    <p>Copyright &copy; 2022 - All Rights Reserved - <a href="#">SimplyMe.com</a></p>
+  </footer>
+</html>
